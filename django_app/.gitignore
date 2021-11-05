@@ -2,4 +2,4 @@
 django_app/postgresvenv
 *migrations*
 
-cars/__pycache__
+__pycache__
