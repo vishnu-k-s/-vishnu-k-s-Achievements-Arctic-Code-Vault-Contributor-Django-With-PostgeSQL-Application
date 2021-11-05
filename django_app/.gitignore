@@ -1,5 +1,5 @@
 # Environments 
-/postgresvenv
+django_app/postgresvenv
 *migrations*
 
 cars/__pycache__
