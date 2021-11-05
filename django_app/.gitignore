@@ -1,2 +1,5 @@
 # Environments 
-.postgresvenv
+postgresvenv
+*migrations*
+
+cars/__pycache__
