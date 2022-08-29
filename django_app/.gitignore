@@ -1,5 +1,6 @@
 # Environments 
-django_app/postgresvenv
+django_app/postgresvenv/
+postgresvenv/
 *migrations*
 
 __pycache__
