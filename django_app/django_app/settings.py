@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hello_world',
+    
     'cars',
 ]
 
@@ -56,9 +56,8 @@ ROOT_URLCONF = 'django_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-           Path(BASE_DIR, 'templates') #include this line to file for detecting templates
-                ],
+        'DIRS': [Path(BASE_DIR, 'templates')], #include this line to file for detecting templates
+                
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -80,7 +79,7 @@ WSGI_APPLICATION = 'django_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'helloworld',
+        'NAME': 'carshop',
         'USER': 'helloworld',
         'PASSWORD': 'helloworld',
         'HOST': 'localhost',
