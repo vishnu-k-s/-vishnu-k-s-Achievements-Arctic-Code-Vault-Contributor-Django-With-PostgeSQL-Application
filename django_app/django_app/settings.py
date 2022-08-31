@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-5!!ehbf!$t2(tuv96aotzws5s569h&7gl&f4_-n9(%g&rky%d$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','carshop-django-postgres.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'carshop-django-postgres.herokuapp.com']
 
 
 # Application definition
